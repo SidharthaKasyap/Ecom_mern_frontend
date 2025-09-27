@@ -12,7 +12,7 @@ import { useState } from "react";
 // import { auth } from "../firebase";
 import toast from "react-hot-toast";
 
-const user = { _id: "hgh", role: "" };
+const user = { _id: "", role: "" };
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
